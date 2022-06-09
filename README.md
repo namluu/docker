@@ -1,6 +1,6 @@
 # docker
 
-branch: lamp
+branch: composer based on lamp
 
 - Setting up the LAMP Project
 
