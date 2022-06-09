@@ -9,3 +9,5 @@ branch: lamp
 - PHP Module Configuration
 
 - Enabling Apache Modules
+
+- Xdebug Setup
