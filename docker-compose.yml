@@ -5,7 +5,7 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - .:/srv/app
+      - .:/var/www/html
     env_file: .docker.env
   mariadb:
     image: mariadb:10.8.3

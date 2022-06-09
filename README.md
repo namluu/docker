@@ -15,3 +15,5 @@ branch: lamp
 - Using Environment to Configure Xdebug
 
 - Adding Composer to the Dockerfile
+
+- Changing default workdir
