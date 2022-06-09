@@ -13,3 +13,5 @@ branch: lamp
 - Xdebug Setup
 
 - Using Environment to Configure Xdebug
+
+- Adding Composer to the Dockerfile

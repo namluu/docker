@@ -7,7 +7,12 @@ RUN docker-php-ext-install pdo_mysql \
     && docker-php-ext-install opcache \
     && a2enmod rewrite negotiation \
     && pecl install xdebug \
-    && docker-php-ext-enable xdebug
+    && docker-php-ext-enable xdebug \
+    && apt-get -yqq update \
+    && apt-get -yqq install --no-install-recommends unzip \
+    && curl -sS https://getcomposer.org/installer \
+    | php -- --install-dir=/usr/local/bin --filename=composer \
+    && chmod +x /usr/local/bin/composer
 
 COPY .docker/php/opcache.ini /usr/local/etc/php/conf.d/opcache.ini
 COPY .docker/php/xdebug-dev.ini /usr/local/etc/php/conf.d/xdebug-dev.ini
