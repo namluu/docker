@@ -11,3 +11,5 @@ branch: lamp
 - Enabling Apache Modules
 
 - Xdebug Setup
+
+- Using Environment to Configure Xdebug
