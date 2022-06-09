@@ -7,3 +7,5 @@ branch: lamp
 - The Database Container
 
 - PHP Module Configuration
+
+- Enabling Apache Modules
